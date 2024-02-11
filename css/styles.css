@@ -35,12 +35,13 @@ nav ul{
 
 nav ul li{
     width: 100%;
-    margin: 0 0 3% 0;
-    padding: 0.5rem 0.3rem;
+    margin: 0 0 1.5% 0;
+    padding: 0.8rem 0.3rem;
     background-color: white;
 }
 
 nav a{
     text-decoration: none;
     text-transform:uppercase;
+    font-weight: bold;
 }
