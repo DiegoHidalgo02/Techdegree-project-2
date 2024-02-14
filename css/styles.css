@@ -75,9 +75,41 @@ main{
     /* font-size: 21px; */
 }
 
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .portfolio h2{
     text-transform: uppercase;
     font-size: 1.15rem;
     font-weight: 900;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
+}
+
+article{
+    margin-bottom: 2.8rem;
+}
+
+article img{
+    margin-bottom: 1.5rem;
+}
+
+article div h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+article div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+article div p{
+    font-size: 1.2rem;
+    width: 100%;
 }
