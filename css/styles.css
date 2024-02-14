@@ -62,7 +62,7 @@ main{
     flex-direction: column;
     align-items: center;
 
-    margin: 1.5rem 0 4rem 0;
+    margin: 1.5rem 0 6.5rem 0;
 }
 
 .personal-photo{
@@ -73,4 +73,11 @@ main{
 .presentation p{
     font-size: 1.3125rem;
     /* font-size: 21px; */
+}
+
+.portfolio h2{
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
 }
