@@ -166,6 +166,10 @@ hr{
     padding: 1.7rem;
 }
 
+.contacts>:first-child{
+    margin-bottom: 1.5rem;
+}
+
 
 
 @media screen and (min-width:768px){
