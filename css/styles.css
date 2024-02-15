@@ -236,6 +236,9 @@ hr{
         margin: 0 0 1.5rem;
     }
 
+    article div p{
+        font-size: calc(1rem + 0.2vw);
+    }
     .tbl-dsk-nav{
         display:flex;
     }
@@ -271,6 +274,10 @@ hr{
 
     .portfolio article{
         flex: 0 0 30.6%;
+    }
+
+    article div p{
+        font-size: calc(1rem + 0.2vw);
     }
 
     .footer-nav{
