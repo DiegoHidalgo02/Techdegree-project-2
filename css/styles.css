@@ -73,6 +73,7 @@ main{
 .presentation p{
     font-size: 1.3125rem;
     /* font-size: 21px; */
+    text-align: center;
 }
 
 .portfolio{
@@ -190,19 +191,20 @@ hr{
         width: 100%;
         display: flex;
         flex-direction: row-reverse;
-        align-items:normal;
+        justify-content: space-between;
         margin: 1.5rem 0 6.5rem 0;
-        gap: 2rem;
+        align-items:flex-start
     }
     
     .personal-photo{
+        margin: 0 0 0 1.5rem;
         width: 40%;
-        margin: 0 0 1.5rem 0;
     }
     
     .presentation p{
-        width: 60%;
         font-size: 1.3125rem;
+        text-align: left; 
+        width:65%;
         /* font-size: 21px; */
     }
 
