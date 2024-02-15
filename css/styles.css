@@ -243,3 +243,28 @@ hr{
         display: none;
     }
 }
+
+@media screen and (min-width:1024px){
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1.2rem;
+    }
+
+    header h1{
+        width:21%;
+        margin: 0;
+    }
+
+    nav{
+        width: auto;
+    }
+
+    nav ul{
+        justify-content:initial /*reset justify-content to flex-start*/
+    }
+
+    .portfolio article{
+        flex: 0 0 30.6%;
+    }
+}
