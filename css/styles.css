@@ -70,7 +70,9 @@ main{
 }
 
 .presentation p{
-    font-size: 1.3125rem;
+    font-size: calc(1rem + 0.5vw);
+    width: calc(80% + 5vw);
+    /* font-size: 1.3125rem; */
     /* font-size: 21px; */
     text-align: center;
 }
@@ -214,10 +216,8 @@ hr{
     }
     
     .presentation p{
-        font-size: 1.25rem;
+        width: calc(50% + 5vw);
         text-align: left;
-        width: 44%;
-        /* font-size: 21px; */
         margin-right: auto;
     }
     
@@ -261,13 +261,12 @@ hr{
         width: auto;
     }
 
-    nav ul{
-        justify-content:initial /*reset justify-content to flex-start*/
+    .presentation p{
+        width: calc(50% + 5vw);
     }
 
-    .presentation p{
-        width: 55%;
-        font-size: 1.3rem;
+    nav ul{
+        justify-content:initial /*reset justify-content to flex-start*/
     }
 
     .portfolio article{
