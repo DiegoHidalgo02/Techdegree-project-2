@@ -266,7 +266,8 @@ hr{
     }
 
     .presentation p{
-        font-size: 1.7rem;
+        width: 54%;
+        font-size: 2rem;
     }
 
     .portfolio article{
