@@ -214,9 +214,9 @@ hr{
     }
     
     .presentation p{
-        font-size: 1.7rem;
+        font-size: 1.25rem;
         text-align: left;
-        width: 46%;
+        width: 44%;
         /* font-size: 21px; */
         margin-right: auto;
     }
@@ -263,6 +263,10 @@ hr{
 
     nav ul{
         justify-content:initial /*reset justify-content to flex-start*/
+    }
+
+    .presentation p{
+        font-size: 1.7rem;
     }
 
     .portfolio article{
