@@ -171,7 +171,14 @@ hr{
     margin-bottom: 1.5rem;
 }
 
+.footer-nav p{
+    display: flex;
+    align-items: center;
+}
 
+.tbl-dsk-nav{
+    display: none;
+}
 
 @media screen and (min-width:768px){
 
@@ -227,5 +234,13 @@ hr{
         height: auto;
         flex: 0 0 48%;
         margin: 0 0 1.5rem;
+    }
+
+    .tbl-dsk-nav{
+        display:flex;
+    }
+
+    .mobile-nav{
+        display: none;
     }
 }
