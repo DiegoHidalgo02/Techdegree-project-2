@@ -267,4 +267,8 @@ hr{
     .portfolio article{
         flex: 0 0 30.6%;
     }
+
+    .footer-nav{
+        width: 100%;
+    }
 }
