@@ -1,92 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mobile-first Responsive Layout</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <h1>Diego Hidalgo</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <h1>Diego Hidalgo</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="presentation">
-            <div class="personal-photo">
-                <img src="images/responsive-layout-profile.png" alt="">
+      <section class="presentation">
+        <div class="personal-photo">
+          <img src="images/responsive-layout-profile.png" alt="" />
+        </div>
+        <p>
+          Hi I&apos;m a front-end developer who loves responsive design and css.
+          I recently finished a degree in front-end web development at Treehouse
+          anf am excited to put al my skils to use!
+        </p>
+      </section>
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio">
+          <article>
+            <img src="images/portfolio-1.png" alt="Marketing Page" />
+            <div>
+              <h3>Marketing Page</h3>
+              <p>
+                This project shows the front page of a marketing website meant
+                for a specific business I&apos; interested in.
+              </p>
             </div>
-            <p>Hi I&apos;m a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse anf am excited to put al my skils to use!</p>
-        </section>
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <div class="portfolio">
-                <article>
-                    <img src="images/portfolio-1.png" alt="Marketing Page">
-                    <div>
-                        <h3>Marketing Page</h3>
-                        <p>This project shows the front page of a marketing website meant for a specific business I&apos; interested in.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="images/portfolio-2.png" alt="Search page">
-                    <div>
-                        <h3>Search Page</h3>
-                        <p>This project searches through a specific database to find information that the user is trying look up</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="images/portfolio-3.png" alt="Travel App">
-                    <div>
-                        <h3>Travel App</h3>
-                        <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="images/portfolio-4.png" alt="Map of Favourite Spots">
-                    <div>
-                        <h3>Map of Favourite Spots</h3>
-                        <p>This project uses mapping apis to plot points for my nfavourite spots in the city for a do-it-yourself walking tour</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="images/portfolio-5.png" alt="Photo Gallery">
-                    <div>
-                        <h3>Photo Gallery</h3>
-                        <p>This project shows pictures from a recent trip to the viewer and allows them to easly navigate through photos.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="images/portfolio-6.png" alt="Calculator">
-                    <div>
-                        <h3>Calculator</h3>
-                        <p>Someone can enter in the numbers they wnat, and press the big blue button and get the result.</p>
-                    </div>
-                </article>
+          </article>
+          <article>
+            <img src="images/portfolio-2.png" alt="Search page" />
+            <div>
+              <h3>Search Page</h3>
+              <p>
+                This project searches through a specific database to find
+                information that the user is trying look up
+              </p>
             </div>
-        </section>
+          </article>
+          <article>
+            <img src="images/portfolio-3.png" alt="Travel App" />
+            <div>
+              <h3>Travel App</h3>
+              <p>
+                This project compares travel times based on different
+                transportation methods and tells you the best one.
+              </p>
+            </div>
+          </article>
+          <article>
+            <img src="images/portfolio-4.png" alt="Map of Favourite Spots" />
+            <div>
+              <h3>Map of Favourite Spots</h3>
+              <p>
+                This project uses mapping apis to plot points for my nfavourite
+                spots in the city for a do-it-yourself walking tour
+              </p>
+            </div>
+          </article>
+          <article>
+            <img src="images/portfolio-5.png" alt="Photo Gallery" />
+            <div>
+              <h3>Photo Gallery</h3>
+              <p>
+                This project shows pictures from a recent trip to the viewer and
+                allows them to easly navigate through photos.
+              </p>
+            </div>
+          </article>
+          <article>
+            <img src="images/portfolio-6.png" alt="Calculator" />
+            <div>
+              <h3>Calculator</h3>
+              <p>
+                Someone can enter in the numbers they wnat, and press the big
+                blue button and get the result.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
     </main>
     <footer>
-        <h2 id="contact">contact</h2>
-        <p class="info-footer" >If you're interested in chatting or want more information about what i&apos;ve been working on, I&apos;d love hear from you!</p>
-        <div class="contacts">
-            <p>Phone <span>+1 (111) 555-1234</span></p>
-            <p>Email <span>email@yoursite.com</span></p>
-        </div>
-        <hr/>
-        <nav class="footer-nav">
-            <p>Diego Hidalgo</p>
-            <a href="">BACK TO TOP</a>
-        </nav>
+      <h2 id="contact">contact</h2>
+      <p class="info-footer">
+        If you're interested in chatting or want more information about what
+        i&apos;ve been working on, I&apos;d love hear from you!
+      </p>
+      <div class="contacts">
+        <p>Phone <span>+1 (111) 555-1234</span></p>
+        <p>Email <span>email@yoursite.com</span></p>
+      </div>
+      <hr />
+      <nav class="footer-nav">
+        <p>Diego Hidalgo</p>
+        <a href="">BACK TO TOP</a>
+      </nav>
     </footer>
-</body>
+  </body>
 </html>
