@@ -209,15 +209,16 @@ hr{
     }
     
     .personal-photo{
-        margin: 0 0 0 1.5rem;
-        width: 40%;
+        margin: 0;
+        width: 42%;
     }
     
     .presentation p{
-        font-size: 1.3125rem;
-        text-align: left; 
-        width:65%;
+        font-size: 1.7rem;
+        text-align: left;
+        width: 46%;
         /* font-size: 21px; */
+        margin-right: auto;
     }
     
         
