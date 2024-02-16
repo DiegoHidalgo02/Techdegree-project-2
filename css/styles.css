@@ -273,7 +273,7 @@ hr{
     }
 
     .portfolio article{
-        flex: 0 0 30.6%;
+        flex: 1 0 25%;
     }
 
     article div p{
