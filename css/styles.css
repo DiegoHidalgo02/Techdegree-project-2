@@ -61,6 +61,8 @@ nav a:hover{
 
 main{
     padding: 1.2rem;
+    max-width: 1650px;
+    margin: auto;
 }
 
 .presentation{
@@ -92,17 +94,15 @@ main{
     text-align: center;
 }
 
-h2{
+h2 {
     text-transform: uppercase;
-    font-size: 1.15rem;
+    font-size: calc(1.15rem + 0.4vw);
     font-weight: 900;
-    margin-bottom: 4rem;
+    margin-bottom: 20%;
     text-align: center;
 }
 
-article{
-    margin-bottom: 2.8rem;
-}
+
 
 article img{
     margin-bottom: 1.5rem;
@@ -193,6 +193,70 @@ hr{
     display: none;
 }
 
+
+.skills{
+    margin: 10% 0 10% 0;	
+}
+
+
+.skills-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    row-gap: 2rem;
+}
+
+.skills-item{
+    width: 80%;
+    max-width: 1200px;
+}
+
+.item-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.item-info p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.bar{
+    position: relative;
+    width: 100%;
+    height: 1rem;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+
+.item1 .progressbar{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    background-color: red;
+    border-radius: 25px;
+}
+
+.item2 .progressbar{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: red;
+    border-radius: 25px;
+}
+
+.item3 .progressbar{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: red;
+    border-radius: 25px;
+}
+
 @media screen and (min-width:768px){
 
     nav {
@@ -232,12 +296,16 @@ hr{
         text-align: left;
         margin-right: auto;
     }
-    
+
+    h2{
+        margin-bottom: 10%;
+    }
         
     .portfolio{
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 4%;
+        row-gap: 4rem;
         align-items: stretch;
     }
     
@@ -245,7 +313,6 @@ hr{
     .portfolio article{
         height: auto;
         flex: 0 0 48%;
-        margin: 0 0 1.5rem;
     }
 
     article div p{
@@ -284,12 +351,20 @@ hr{
         justify-content:initial /*reset justify-content to flex-start*/
     }
 
+    h2{
+        margin-bottom: 7%;
+    }
+
     .portfolio article{
         flex: 1 0 25%;
     }
 
     article div p{
         font-size: calc(1rem + 0.2vw);
+    }
+
+    hr{
+        width: 96%;
     }
 
     .footer-nav{
