@@ -64,7 +64,7 @@ nav a:hover{
 /*Main content*/
 
 main{
-    padding: 3rem;
+    padding: 1rem;
     max-width: 1650px;
     margin: auto;
 }
@@ -85,7 +85,7 @@ main{
 
 .presentation p{
     font-size: calc(1rem + 0.5vw);
-    width: calc(80% + 5vw);
+    width: calc(85% + 5vw);
     /* font-size: 1.3125rem; */
     /* font-size: 21px; */
     text-align: center;
@@ -95,6 +95,7 @@ main{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    row-gap: 3rem;
 }
 
 h2 {
@@ -113,7 +114,7 @@ article img{
 
 article div h3{
     font-family: "Roboto Mono", monospace;
-    font-size: calc(1.1rem + 0.5vw);
+    font-size: calc(1.3rem + 0.5vw);
     font-weight: 500;
     margin-bottom: 1rem;
     color: rgba(6, 56, 131, 0.822);
@@ -126,7 +127,7 @@ article div{
 }
 
 article div p{
-    font-size: calc(1rem + 0.5vw);
+    font-size: calc(1rem + 0.15vw);
     width: 100%;
 }
 
@@ -194,7 +195,7 @@ hr{
 
 
 .skills{
-    margin: 10% 0 10% 0;	
+    margin: 30% 0 10% 0;	
 }
 
 
@@ -277,6 +278,10 @@ hr{
         padding: 0.8rem 0.3rem;
     }
 
+    main{
+        padding: 3rem;
+    }
+
     .presentation{
         width: 100%;
         flex-direction: row-reverse;
@@ -314,12 +319,12 @@ hr{
         flex: 0 0 48%;
     }
 
-    article div p{
-        font-size: calc(1rem + 0.2vw);
-    }
-
     .mobile-nav{
         display: none;
+    }
+
+    .skills{
+        margin: 15% 0 10% 0;
     }
 }
 
@@ -339,10 +344,6 @@ hr{
         width: auto;
     }
 
-    .presentation p{
-        width: calc(50% + 5vw);
-    }
-
     nav ul{
         justify-content:initial /*reset justify-content to flex-start*/
     }
@@ -355,9 +356,10 @@ hr{
         flex: 1 0 25%;
     }
 
-    article div p{
-        font-size: calc(1rem + 0.2vw);
+    article div h3{
+        font-size: calc(1.2rem + 0.2vw);
     }
+
 
     hr{
         width: 96%;
