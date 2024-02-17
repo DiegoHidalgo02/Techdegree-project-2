@@ -12,10 +12,14 @@ a{
     color: black;
 }
 
+header, .presentation, .portfolio, article div, footer, .footer-nav, .footer-nav p, .skills-content, .item-info{
+    display: flex;
+}
+
+
 header{
     padding: 15px 10px 15px 10px;
     width: 100%;
-    display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgba(6, 56, 131, 0.822);
@@ -65,9 +69,9 @@ main{
     margin: auto;
 }
 
+
 .presentation{
     width: 100%;
-    display: flex;
     flex-direction: column;
     align-items: center;
 
@@ -88,7 +92,6 @@ main{
 }
 
 .portfolio{
-    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -117,7 +120,6 @@ article div h3{
 }
 
 article div{
-    display: flex;
     flex-direction: column;
     align-items: center;
 
@@ -129,7 +131,6 @@ article div p{
 }
 
 footer{
-    display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgba(6, 56, 131, 0.822);
@@ -174,7 +175,6 @@ hr{
 }
 
 .footer-nav{
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1.7rem;
@@ -185,7 +185,6 @@ hr{
 }
 
 .footer-nav p{
-    display: flex;
     align-items: center;
 }
 
@@ -200,7 +199,6 @@ hr{
 
 
 .skills-content{
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -214,7 +212,6 @@ hr{
 }
 
 .item-info{
-    display: flex;
     width: 100%;
     justify-content: space-between;
 }
@@ -263,10 +260,13 @@ hr{
         width: 100%;
         text-align: center;
     }
+
+    nav ul, .presentation, .tbl-dsk-nav{
+        display: flex;
+    }
     
     nav ul{
         list-style: none;
-        display: flex;
         justify-content: center;
         gap: 1.5rem;
     }
@@ -279,7 +279,6 @@ hr{
 
     .presentation{
         width: 100%;
-        display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         margin: 1.5rem 0 6.5rem 0;
@@ -317,9 +316,6 @@ hr{
 
     article div p{
         font-size: calc(1rem + 0.2vw);
-    }
-    .tbl-dsk-nav{
-        display:flex;
     }
 
     .mobile-nav{
