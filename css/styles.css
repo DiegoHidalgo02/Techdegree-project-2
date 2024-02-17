@@ -347,6 +347,11 @@ hr{
     nav ul{
         justify-content:initial /*reset justify-content to flex-start*/
     }
+    
+    .presentation p{
+        font-size: calc(1.3rem + 0.15vw);
+        width: calc(45% + 5vw);
+    }
 
     h2{
         margin-bottom: 7%;
